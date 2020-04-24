@@ -4,10 +4,12 @@ module.exports={
   async getGif(){
 
   },
-  async getRecipe(url1){
-    console.log(url1)
-    const url = `http://www.recipepuppy.com/api/?i=${onions},${garlic}&q=omelet&p=3`
+  async getRecipe(ingredients){
+    var url = `http://www.recipepuppy.com/api/?i=`
+    ingredients.map((ingredient,index) => {
+      index == 0 ?  url+= `${ingredient}`: url+=`,${ingredient}`
+    });
     const resultado = await axios.get(url)
-    console.log(resultado.data)
+    return resultado.data
   }
 }
