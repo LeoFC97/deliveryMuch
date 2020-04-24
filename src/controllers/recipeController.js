@@ -1,10 +1,15 @@
 const httpController = require('./httpController')
 const sortUtils = require('../utils/sortUtils')
 const stringUtils = require('../utils/stringUtils')
+const errorController = require('../controllers/errorController')
 
 module.exports = {
   async returnRecipe (req, res) {
     const { i } = req.query
+    if (!i) {
+      const errorObject = errorController.missingParams()
+      return res.status(errorObject.status).send(errorObject.errorSring)
+    }
     const keywords = (i.split('i=')[0]).split(',')
 
     const returnOfRecipePuppy = await httpController.getRecipe(keywords)
