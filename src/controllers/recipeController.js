@@ -4,7 +4,7 @@ const stringUtils = require('../utils/stringUtils')
 
 module.exports = {
   async returnRecipe (req, res) {
-    const ingredients = req.query.i
+    const { ingredients } = req.query
     const keywords = (ingredients.split('i=')[0]).split(',')
 
     const returnOfRecipePuppy = await httpController.getRecipe(keywords)
