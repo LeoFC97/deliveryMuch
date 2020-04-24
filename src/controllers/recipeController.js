@@ -13,9 +13,7 @@ module.exports = {
       const titleWithoutMarks = stringUtils.removeMarks(recipe.title)
       const arrayOfIngredients = recipe.ingredients.split(',')
       const ingredientsCleaned = arrayOfIngredients.map(elem => stringUtils.removeBlankSpaces(elem))
-      console.log(ingredientsCleaned)
-      // for any reason, the trim() method wasnt working :/
-      const ingredientsSorted = ingredientsCleaned.sort()
+      const ingredientsSorted = sortUtils.alphabeticalSort(ingredientsCleaned)
       return { title: titleWithoutMarks, link: recipe.href, ingredients: ingredientsSorted }
     })
     const teste = {
