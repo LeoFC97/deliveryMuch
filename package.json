@@ -1,0 +1,19 @@
+{
+  "name": "deliveryMuchTest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LeoFC97/deliveryMuchTest.git",
+  "author": "LeoFC97 <leonardo.fc2@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "eslint": "^6.8.0"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  }
+}
