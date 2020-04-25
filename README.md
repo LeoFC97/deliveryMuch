@@ -1,4 +1,4 @@
-# Project Title
+# Delivery Much Challange
 
 One Paragraph of project description goes here
 
@@ -8,19 +8,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install it
 You must install node.js, docker and docker-compose.
 
 ```
-Give examples
 I strongly recommend downloading the LTS versions from: https://nodejs.org/en/ and https://www.docker.com/products/docker-desktop
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
 
 First, you'll clone the repository from github. 
 Then, open the folder you just cloned - make sure you docker service is running. 
@@ -32,24 +27,18 @@ git clone https://github.com/LeoFC97/deliveryMuch
 cd deliveryMuch
 docker-compose build
 docker-compose up
-Give the example
-```
-
-And repeat
-
-```
-until finished
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+There are Unity Tests on the project in order to ensure that it runs cohesively, and they can be found at their respective folders.
 
 ### Break down into end to end tests
 
 Explain what these tests test and why
+The tests cover subjects such as string sanitazing and sorting methods. The tests in place are there to make sure the code isn't broken while the API was being developed - it is essential for present and future maintenance.
 
 ```
 Give an example
@@ -57,10 +46,31 @@ Give an example
 
 ### And coding style tests
 
-Explain what these tests test and why
+The standard eslint rules were used, and the full list adopted can be found at https://eslint.org/docs/rules/
+If you want to configure your own eslint rules, the file can be found at ./.eslintrc.json
 
 ```
-Give an example
+{
+    "env": {
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "jest": true
+    },
+    "extends": [
+        "standard"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+    }
+
+}
 ```
 
 ## Deployment
