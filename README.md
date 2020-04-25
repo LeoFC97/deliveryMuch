@@ -4,14 +4,16 @@ One Paragraph of project description goes here
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine, for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things you need to install the software and how to install it
+You must install node.js, docker and docker-compose.
 
 ```
 Give examples
+I strongly recommend downloading the LTS versions from: https://nodejs.org/en/ and https://www.docker.com/products/docker-desktop
 ```
 
 ### Installing
@@ -20,7 +22,16 @@ A step by step series of examples that tell you how to get a development env run
 
 Say what the step will be
 
+First, you'll clone the repository from github. 
+Then, open the folder you just cloned - make sure you docker service is running. 
+Run docker-compose build to create the container, and, to finish, run docker-compose up to start the container.
+With these steps, the environment should be running smoothly at localhost:3333.
+
 ```
+git clone https://github.com/LeoFC97/deliveryMuch
+cd deliveryMuch
+docker-compose build
+docker-compose up
 Give the example
 ```
 
