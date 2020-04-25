@@ -28,6 +28,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "test": "jest --passWithNoTests --watch",
-    "test-ci": "jest"
+    "test-ci": "jest",
+    "start": "node index.js"
   }
 }
