@@ -1,11 +1,11 @@
 module.exports = {
   missingParams () {
-    const error = {
+    const errorObject = {
       status: 400,
       errorMensage: {
         err: 'Missing params, check the api manual'
       }
     }
-    return error
+    return errorObject
   }
 }
