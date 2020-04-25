@@ -2,15 +2,17 @@ const axios = require('axios')
 require('dotenv').config()
 
 module.exports = {
-  async getGif () {
-    console.log(process.env.GIF_API)
+  async getGif (titleForSearch) {
+    const url = `https://api.giphy.com/v1/gifs/search?api_key=${process.env.GIF_API}&q=${titleForSearch}&limit=1&offset=0&rating=G&lang=en`
+    const returnOfApi = await axios.get(url)
+    return returnOfApi.data
   },
   async getRecipe (ingredients) {
-    var url = 'http://www.recipepuppy.com/api/?i='
+    let url = 'http://www.recipepuppy.com/api/?i='
     ingredients.map((ingredient, index) => {
       index === 0 ? url += `${ingredient}` : url += `,${ingredient}`
     })
-    const resultado = await axios.get(url)
-    return resultado.data
+    const returnOfApi = await axios.get(url)
+    return returnOfApi.data
   }
 }
