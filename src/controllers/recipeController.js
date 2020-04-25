@@ -7,8 +7,8 @@ module.exports = {
   async returnRecipe (req, res) {
     const { i } = req.query
     if (!i) {
-      const error = errorController.missingParams()
-      return res.status(error.status).send(error.errorMensage)
+      const errorObject = errorController.missingParams()
+      return res.status(errorObject.status).send(errorObject.errorMensage)
     }
 
     const keywords = (i.split('i=')[0]).split(',')
