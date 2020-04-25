@@ -1,11 +1,11 @@
 FROM node:alpine
 
-WORKDIR /urs/app
+WORKDIR /usr/app/src
 COPY package*.json ./
 
 RUN npm install
 
-COPY ./src .
+COPY ./src ./src
 
 EXPOSE 3333
 
