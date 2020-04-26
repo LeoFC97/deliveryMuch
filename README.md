@@ -44,120 +44,103 @@ Example: http://127.0.0.1:3333/recipes?i=tomato,onions
 Response body:
 
     {
-      "keyowrds": [
-        "tomato",
-        "onions"
-      ],
-      "recipes": [
-        {
-          "title": "Guacamole Dip Recipe",
-          "link": "http://cookeatshare.com/recipes/guacamole-dip-2783",
-          "ingredients": [
-            "avocado",
-            "onions",
-            "tomato"
-          ],
-          "gif": "https://media2.giphy.com/media/I3eVhMpz8hns4/giphy.gif?cid=1613e75f73749c3651142d0bfa0f5e545535c5abd0c43c31&rid=giphy.gif"
-        },
-        {
-          "title": "Guacamole Dip Recipe",
-          "link": "http://cookeatshare.com/recipes/guacamole-dip-3108",
-          "ingredients": [
-            "avocado",
-            "onions",
-            "tomato"
-          ],
-          "gif": "https://media2.giphy.com/media/I3eVhMpz8hns4/giphy.gif?cid=1613e75f73749c3651142d0bfa0f5e545535c5abd0c43c31&rid=giphy.gif"
-        },
-        {
-          "title": "Homemade Pizza Sauce For Canning Recipe",
-          "link": "http://cookeatshare.com/recipes/homemade-pizza-sauce-for-canning-12225",
-          "ingredients": [
-            "green pepper",
-            "onions",
-            "tomato"
-          ],
-          "gif": "https://media3.giphy.com/media/4ayiIWaq2VULC/giphy.gif?cid=1613e75f216bc5783ac14350574799c76e5fecc5489b7c7e&rid=giphy.gif"
-        },
-        {
-          "title": "Sauce Dijon a la Provencal ",
-          "link": "http://www.kraftfoods.com/kf/recipes/sauce-dijon-a-la-54823.aspx",
-          "ingredients": [
-            "dijon mustard",
-            "onions",
-            "sugar",
-            "tomato"
-          ],
-          "gif": "https://media2.giphy.com/media/Lqx1OxhtzwJKDO45Gs/giphy.gif?cid=1613e75f203df114eeba0e98a4077a66fe1c208d429b5e55&rid=giphy.gif"
-        },
-        {
-          "title": "Basil Pesto Pomodoro Sauce",
-          "link": "http://www.recipezaar.com/Basil-Pesto-Pomodoro-Sauce-221792",
-          "ingredients": [
-            "nonstick cooking spray",
-            "onions",
-            "pesto",
-            "tomato"
-          ],
-          "gif": "https://media1.giphy.com/media/RO023EYTyk5yg/giphy.gif?cid=1613e75f04db40d858e578d09c7b2c1a22396b3da09eb6ee&rid=giphy.gif"
-        },
-        {
-          "title": "Ali's Amazing Bruschetta",
-          "link": "http://allrecipes.com/Recipe/Alis-Amazing-Bruschetta/Detail.aspx",
-          "ingredients": [
-            "olive oil",
-            "onions",
-            "parmesan cheese",
-            "tomato"
-          ],
-          "gif": "https://media0.giphy.com/media/igPHynz0BdOTTApAL7/giphy.gif?cid=1613e75f69bcf615b9f37115e29727c5f19ac4b643850129&rid=giphy.gif"
-        },
-        {
-          "title": "BLT Pasta Salad",
-          "link": "http://allrecipes.com/Recipe/BLT-Pasta-Salad/Detail.aspx",
-          "ingredients": [
-            "bacon",
-            "onions",
-            "ranch dressing",
-            "tomato"
-          ],
-          "gif": "https://media1.giphy.com/media/UuZByExSorh6w/giphy.gif?cid=1613e75fbdc87f131e9a0a7fceae9a961edaa3beed0b9ade&rid=giphy.gif"
-        },
-        {
-          "title": "Tomato Alfredo Sauce with Artichokes",
-          "link": "http://allrecipes.com/Recipe/Tomato-Alfredo-Sauce-with-Artichokes/Detail.aspx",
-          "ingredients": [
-            "flour",
-            "onions",
-            "tomato",
-            "whole milk"
-          ],
-          "gif": "https://media1.giphy.com/media/KXBtTtm3kB8BO/giphy.gif?cid=1613e75f9d7db3591e40ce560eecc70526980f39a096a55c&rid=giphy.gif"
-        },
-        {
-          "title": "Tomato Cheese Crunch",
-          "link": "http://allrecipes.com/Recipe/Tomato-Cheese-Crunch/Detail.aspx",
-          "ingredients": [
-            "cheddar cheese",
-            "onions",
-            "potato chips",
-            "tomato"
-          ],
-          "gif": "https://media2.giphy.com/media/YkdjQNu9YCSGNpELDt/giphy.gif?cid=1613e75f2bf7a67e1a07524c8b54d513571a5b585e3702e0&rid=giphy.gif"
-        },
-        {
-          "title": "Basic Guacamole Dip",
-          "link": "http://allrecipes.com/Recipe/Basic-Guacamole-Dip/Detail.aspx",
-          "ingredients": [
-            "avocado",
-            "lemon juice",
-            "onions",
-            "tomato"
-          ],
-          "gif": "https://media2.giphy.com/media/e3yEXwFNHZ8kw/giphy.gif?cid=1613e75f35a21feda8f796e4688ccddebd13f40b45d00870&rid=giphy.gif"
-        }
-      ]
-    }
+    "keyowrds": [
+      "onion",
+      "avocado"
+    ],
+    "recipes": [
+      {
+        "title": "Guacamole Dip Recipe",
+        "ingredients": [
+          "avocado"
+        ],
+        "link": "http://cookeatshare.com/recipes/guacamole-dip-4099",
+        "gif": "https://media2.giphy.com/media/I3eVhMpz8hns4/giphy.gif?cid=1613e75ff1ea33ce10b073e59f9bfb5efe2cc3726ad32692&rid=giphy.gif"
+      },
+      {
+        "title": "Avocado and Prawns in Wasabi",
+        "ingredients": [
+          "avocado",
+          "shrimp"
+        ],
+        "link": "http://www.recipezaar.com/Avocado-and-Prawns-in-Wasabi-19943",
+        "gif": "https://media1.giphy.com/media/Ao1lyXWj0Qz6/giphy.gif?cid=1613e75f0d4a89189d219248036fdfa77ce7a68e13df4305&rid=giphy.gif"
+      },
+      {
+        "title": "Chunky Green  Guacamole",
+        "ingredients": [
+          "avocado",
+          "green chilies"
+        ],
+        "link": "http://www.recipezaar.com/Chunky-Green-Guacamole-291466",
+        "gif": "https://media1.giphy.com/media/QUM8jMz4rTELn8lTc9/giphy.gif?cid=1613e75f1360ea4f5681a294c2ab6ad593944dfb4601c900&rid=giphy.gif"
+      },
+      {
+        "title": "Fusion Avocado!",
+        "ingredients": [
+          "avocado",
+          "soy sauce"
+        ],
+        "link": "http://www.recipezaar.com/Fusion-Avocado-128746",
+        "gif": "https://media1.giphy.com/media/oOfLwhLyRUoRW/giphy.gif?cid=1613e75f8b6cd51ec1aaeb4b25d96e272ed054142ec6544d&rid=giphy.gif"
+      },
+      {
+        "title": "Easy Guacamole",
+        "ingredients": [
+          "avocado",
+          "salsa"
+        ],
+        "link": "http://www.recipezaar.com/Easy-Guacamole-53059",
+        "gif": "https://media1.giphy.com/media/KeuiQtqUzecEzyzGMt/giphy.gif?cid=1613e75fc70d05eedd55560fc69edb632974335f21827874&rid=giphy.gif"
+      },
+      {
+        "title": "Avocado Ranch Dressing",
+        "ingredients": [
+          "avocado",
+          "ranch dressing"
+        ],
+        "link": "http://www.recipezaar.com/Avocado-Ranch-Dressing-149509",
+        "gif": "https://media1.giphy.com/media/fZELCrxkCyRk7RHhbc/giphy.gif?cid=1613e75f871ca1ea4e0157510d354445899b9a96aca58c75&rid=giphy.gif"
+      },
+      {
+        "title": "Nicole's Avocado Dip",
+        "ingredients": [
+          "avocado",
+          "salt"
+        ],
+        "link": "http://allrecipes.com/Recipe/Nicoles-Avocado-Dip/Detail.aspx",
+        "gif": "https://media2.giphy.com/media/gZ8emTQmTrWQE/giphy.gif?cid=1613e75f643f88caaed61ba0f78e8e522909246008f53730&rid=giphy.gif"
+      },
+      {
+        "title": "Avocado Pie",
+        "ingredients": [
+          "avocado",
+          "lemon juice"
+        ],
+        "link": "http://allrecipes.com/Recipe/Avocado-Pie/Detail.aspx",
+        "gif": "https://media1.giphy.com/media/HsAsOUJEYgyFa/giphy.gif?cid=1613e75f2dc9a87e9f1c83e02040b799ceeeb4d9099fcdf6&rid=giphy.gif"
+      },
+      {
+        "title": "Avocado Pie",
+        "ingredients": [
+          "avocado",
+          "lemon juice"
+        ],
+        "link": "http://allrecipes.com/Recipe/Avocado-Pie-2/Detail.aspx",
+        "gif": "https://media1.giphy.com/media/HsAsOUJEYgyFa/giphy.gif?cid=1613e75f2dc9a87e9f1c83e02040b799ceeeb4d9099fcdf6&rid=giphy.gif"
+      },
+      {
+        "title": "Just Yummy N Easy  Avocado Dip Recipe",
+        "ingredients": [
+          "avocado",
+          "avocado",
+          "crackers"
+        ],
+        "link": "http://www.grouprecipes.com/71670/just-yummy-n-easy-avocado-dip.html",
+        "gif": "https://media1.giphy.com/media/dWy2WwcB3wvX8QA1Iu/giphy.gif?cid=1613e75fdd3387491d4377c9650b06e4f8d4d48b5f1156c8&rid=giphy.gif"
+      }
+    ]
+  }
 
 ## Running the Unity tests
 
