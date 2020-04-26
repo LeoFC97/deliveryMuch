@@ -44,7 +44,7 @@ Example: http://127.0.0.1:3333/recipes?i=tomato,onions
 Response body:
 
     {
-    "keyowrds": [
+    "keywords": [
       "onion",
       "avocado"
     ],
