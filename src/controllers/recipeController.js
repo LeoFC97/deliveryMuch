@@ -1,6 +1,6 @@
 const httpController = require('./httpController')
 const sortUtils = require('../utils/sortUtils')
-const stringUtils = require('../utils/stringUtils')
+const stringUtils = require('../utils/stringUtil')
 const errorController = require('../controllers/errorController')
 
 module.exports = {
