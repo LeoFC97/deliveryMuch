@@ -21,7 +21,7 @@ module.exports = {
     const returnOfRecipePuppy = await httpController.getRecipe(keywords)
     const recipes = await returnOfRecipePuppy.results.map(recipe => {
       const titleWithoutMarks = stringUtils.removeMarks(recipe.title)
-      const arrayOfIngredients = recipe.ingredients.split(',')
+      const arrayOfIngredients = queryParamsController.splitQueryIntoArray(recipe.ingredients)
       const ingredientsCleaned = arrayOfIngredients.map(elem => stringUtils.removeBlankSpaces(elem))
       const ingredientsSorted = sortUtils.alphabeticalSort(ingredientsCleaned)
       return { title: titleWithoutMarks, link: recipe.href, ingredients: ingredientsSorted }
