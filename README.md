@@ -25,8 +25,8 @@ Run docker-compose build to create the container, and, to finish it off, run doc
 With these steps, the environment should be running smoothly at localhost:3333.
 
 ```
-git clone https://github.com/LeoFC97/deliveryMuch
-cd deliveryMuch
+git clone https://github.com/LeoFC97/deliveryMuchChallange
+cd deliveryMuchChallange
 docker-compose build
 docker-compose up
 ```
