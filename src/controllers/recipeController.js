@@ -24,7 +24,7 @@ module.exports = {
       const arrayOfIngredients = queryParamsController.splitQueryIntoArray(recipe.ingredients)
       const ingredientsCleaned = arrayOfIngredients.map(elem => stringUtils.removeBlankSpaces(elem))
       const ingredientsSorted = sortUtils.alphabeticalSort(ingredientsCleaned)
-      return { title: titleWithoutMarks, link: recipe.href, ingredients: ingredientsSorted }
+      return { title: titleWithoutMarks, ingredients: ingredientsSorted, link: recipe.href }
     })
 
     for (let i = 0; i < recipes.length; i++) {
