@@ -41,121 +41,121 @@ Example: http://localhost:333/recipesi=tomato,onions
 
 Response body:
 
-{
-  "keyowrds": [
-    "tomato",
-    "onions"
-  ],
-  "recipes": [
     {
-      "title": "Guacamole Dip Recipe",
-      "link": "http://cookeatshare.com/recipes/guacamole-dip-2783",
-      "ingredients": [
-        "avocado",
-        "onions",
-        "tomato"
-      ],
-      "gif": "https://media2.giphy.com/media/I3eVhMpz8hns4/giphy.gif?cid=1613e75f73749c3651142d0bfa0f5e545535c5abd0c43c31&rid=giphy.gif"
-    },
-    {
-      "title": "Guacamole Dip Recipe",
-      "link": "http://cookeatshare.com/recipes/guacamole-dip-3108",
-      "ingredients": [
-        "avocado",
-        "onions",
-        "tomato"
-      ],
-      "gif": "https://media2.giphy.com/media/I3eVhMpz8hns4/giphy.gif?cid=1613e75f73749c3651142d0bfa0f5e545535c5abd0c43c31&rid=giphy.gif"
-    },
-    {
-      "title": "Homemade Pizza Sauce For Canning Recipe",
-      "link": "http://cookeatshare.com/recipes/homemade-pizza-sauce-for-canning-12225",
-      "ingredients": [
-        "green pepper",
-        "onions",
-        "tomato"
-      ],
-      "gif": "https://media3.giphy.com/media/4ayiIWaq2VULC/giphy.gif?cid=1613e75f216bc5783ac14350574799c76e5fecc5489b7c7e&rid=giphy.gif"
-    },
-    {
-      "title": "Sauce Dijon a la Provencal ",
-      "link": "http://www.kraftfoods.com/kf/recipes/sauce-dijon-a-la-54823.aspx",
-      "ingredients": [
-        "dijon mustard",
-        "onions",
-        "sugar",
-        "tomato"
-      ],
-      "gif": "https://media2.giphy.com/media/Lqx1OxhtzwJKDO45Gs/giphy.gif?cid=1613e75f203df114eeba0e98a4077a66fe1c208d429b5e55&rid=giphy.gif"
-    },
-    {
-      "title": "Basil Pesto Pomodoro Sauce",
-      "link": "http://www.recipezaar.com/Basil-Pesto-Pomodoro-Sauce-221792",
-      "ingredients": [
-        "nonstick cooking spray",
-        "onions",
-        "pesto",
-        "tomato"
-      ],
-      "gif": "https://media1.giphy.com/media/RO023EYTyk5yg/giphy.gif?cid=1613e75f04db40d858e578d09c7b2c1a22396b3da09eb6ee&rid=giphy.gif"
-    },
-    {
-      "title": "Ali's Amazing Bruschetta",
-      "link": "http://allrecipes.com/Recipe/Alis-Amazing-Bruschetta/Detail.aspx",
-      "ingredients": [
-        "olive oil",
-        "onions",
-        "parmesan cheese",
-        "tomato"
-      ],
-      "gif": "https://media0.giphy.com/media/igPHynz0BdOTTApAL7/giphy.gif?cid=1613e75f69bcf615b9f37115e29727c5f19ac4b643850129&rid=giphy.gif"
-    },
-    {
-      "title": "BLT Pasta Salad",
-      "link": "http://allrecipes.com/Recipe/BLT-Pasta-Salad/Detail.aspx",
-      "ingredients": [
-        "bacon",
-        "onions",
-        "ranch dressing",
-        "tomato"
-      ],
-      "gif": "https://media1.giphy.com/media/UuZByExSorh6w/giphy.gif?cid=1613e75fbdc87f131e9a0a7fceae9a961edaa3beed0b9ade&rid=giphy.gif"
-    },
-    {
-      "title": "Tomato Alfredo Sauce with Artichokes",
-      "link": "http://allrecipes.com/Recipe/Tomato-Alfredo-Sauce-with-Artichokes/Detail.aspx",
-      "ingredients": [
-        "flour",
-        "onions",
+      "keyowrds": [
         "tomato",
-        "whole milk"
+        "onions"
       ],
-      "gif": "https://media1.giphy.com/media/KXBtTtm3kB8BO/giphy.gif?cid=1613e75f9d7db3591e40ce560eecc70526980f39a096a55c&rid=giphy.gif"
-    },
-    {
-      "title": "Tomato Cheese Crunch",
-      "link": "http://allrecipes.com/Recipe/Tomato-Cheese-Crunch/Detail.aspx",
-      "ingredients": [
-        "cheddar cheese",
-        "onions",
-        "potato chips",
-        "tomato"
-      ],
-      "gif": "https://media2.giphy.com/media/YkdjQNu9YCSGNpELDt/giphy.gif?cid=1613e75f2bf7a67e1a07524c8b54d513571a5b585e3702e0&rid=giphy.gif"
-    },
-    {
-      "title": "Basic Guacamole Dip",
-      "link": "http://allrecipes.com/Recipe/Basic-Guacamole-Dip/Detail.aspx",
-      "ingredients": [
-        "avocado",
-        "lemon juice",
-        "onions",
-        "tomato"
-      ],
-      "gif": "https://media2.giphy.com/media/e3yEXwFNHZ8kw/giphy.gif?cid=1613e75f35a21feda8f796e4688ccddebd13f40b45d00870&rid=giphy.gif"
+      "recipes": [
+        {
+          "title": "Guacamole Dip Recipe",
+          "link": "http://cookeatshare.com/recipes/guacamole-dip-2783",
+          "ingredients": [
+            "avocado",
+            "onions",
+            "tomato"
+          ],
+          "gif": "https://media2.giphy.com/media/I3eVhMpz8hns4/giphy.gif?cid=1613e75f73749c3651142d0bfa0f5e545535c5abd0c43c31&rid=giphy.gif"
+        },
+        {
+          "title": "Guacamole Dip Recipe",
+          "link": "http://cookeatshare.com/recipes/guacamole-dip-3108",
+          "ingredients": [
+            "avocado",
+            "onions",
+            "tomato"
+          ],
+          "gif": "https://media2.giphy.com/media/I3eVhMpz8hns4/giphy.gif?cid=1613e75f73749c3651142d0bfa0f5e545535c5abd0c43c31&rid=giphy.gif"
+        },
+        {
+          "title": "Homemade Pizza Sauce For Canning Recipe",
+          "link": "http://cookeatshare.com/recipes/homemade-pizza-sauce-for-canning-12225",
+          "ingredients": [
+            "green pepper",
+            "onions",
+            "tomato"
+          ],
+          "gif": "https://media3.giphy.com/media/4ayiIWaq2VULC/giphy.gif?cid=1613e75f216bc5783ac14350574799c76e5fecc5489b7c7e&rid=giphy.gif"
+        },
+        {
+          "title": "Sauce Dijon a la Provencal ",
+          "link": "http://www.kraftfoods.com/kf/recipes/sauce-dijon-a-la-54823.aspx",
+          "ingredients": [
+            "dijon mustard",
+            "onions",
+            "sugar",
+            "tomato"
+          ],
+          "gif": "https://media2.giphy.com/media/Lqx1OxhtzwJKDO45Gs/giphy.gif?cid=1613e75f203df114eeba0e98a4077a66fe1c208d429b5e55&rid=giphy.gif"
+        },
+        {
+          "title": "Basil Pesto Pomodoro Sauce",
+          "link": "http://www.recipezaar.com/Basil-Pesto-Pomodoro-Sauce-221792",
+          "ingredients": [
+            "nonstick cooking spray",
+            "onions",
+            "pesto",
+            "tomato"
+          ],
+          "gif": "https://media1.giphy.com/media/RO023EYTyk5yg/giphy.gif?cid=1613e75f04db40d858e578d09c7b2c1a22396b3da09eb6ee&rid=giphy.gif"
+        },
+        {
+          "title": "Ali's Amazing Bruschetta",
+          "link": "http://allrecipes.com/Recipe/Alis-Amazing-Bruschetta/Detail.aspx",
+          "ingredients": [
+            "olive oil",
+            "onions",
+            "parmesan cheese",
+            "tomato"
+          ],
+          "gif": "https://media0.giphy.com/media/igPHynz0BdOTTApAL7/giphy.gif?cid=1613e75f69bcf615b9f37115e29727c5f19ac4b643850129&rid=giphy.gif"
+        },
+        {
+          "title": "BLT Pasta Salad",
+          "link": "http://allrecipes.com/Recipe/BLT-Pasta-Salad/Detail.aspx",
+          "ingredients": [
+            "bacon",
+            "onions",
+            "ranch dressing",
+            "tomato"
+          ],
+          "gif": "https://media1.giphy.com/media/UuZByExSorh6w/giphy.gif?cid=1613e75fbdc87f131e9a0a7fceae9a961edaa3beed0b9ade&rid=giphy.gif"
+        },
+        {
+          "title": "Tomato Alfredo Sauce with Artichokes",
+          "link": "http://allrecipes.com/Recipe/Tomato-Alfredo-Sauce-with-Artichokes/Detail.aspx",
+          "ingredients": [
+            "flour",
+            "onions",
+            "tomato",
+            "whole milk"
+          ],
+          "gif": "https://media1.giphy.com/media/KXBtTtm3kB8BO/giphy.gif?cid=1613e75f9d7db3591e40ce560eecc70526980f39a096a55c&rid=giphy.gif"
+        },
+        {
+          "title": "Tomato Cheese Crunch",
+          "link": "http://allrecipes.com/Recipe/Tomato-Cheese-Crunch/Detail.aspx",
+          "ingredients": [
+            "cheddar cheese",
+            "onions",
+            "potato chips",
+            "tomato"
+          ],
+          "gif": "https://media2.giphy.com/media/YkdjQNu9YCSGNpELDt/giphy.gif?cid=1613e75f2bf7a67e1a07524c8b54d513571a5b585e3702e0&rid=giphy.gif"
+        },
+        {
+          "title": "Basic Guacamole Dip",
+          "link": "http://allrecipes.com/Recipe/Basic-Guacamole-Dip/Detail.aspx",
+          "ingredients": [
+            "avocado",
+            "lemon juice",
+            "onions",
+            "tomato"
+          ],
+          "gif": "https://media2.giphy.com/media/e3yEXwFNHZ8kw/giphy.gif?cid=1613e75f35a21feda8f796e4688ccddebd13f40b45d00870&rid=giphy.gif"
+        }
+      ]
     }
-  ]
-}
 
 ### GET /magazines/[id]
 
