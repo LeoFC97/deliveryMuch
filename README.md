@@ -5,14 +5,16 @@ This API project was done for a challenge issued by Delivery Much. We were taske
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine, for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine, for development and testing purposes. 
 
 ### Prerequisites
 
 You must install node.js, docker and docker-compose.
 
 ```
-I strongly recommend downloading the LTS versions from: https://nodejs.org/en/ and https://www.docker.com/products/docker-desktop
+I strongly recommend downloading the LTS versions from:
+https://nodejs.org/en/ 
+https://www.docker.com/products/docker-desktop
 ```
 
 ### Installing
@@ -157,41 +159,19 @@ Response body:
       ]
     }
 
-### GET /magazines/[id]
-
-Example: http://example.gov/api/v1/magazines/[id].json
-
-Response body:
-
-    {
-        "id": "1234",
-        "type": "magazine",
-        "title": "Public Water Systems",
-        "tags": [
-            {"id": "125", "name": "Environment"},
-            {"id": "834", "name": "Water Quality"}
-        ],
-        "created": "1231621302"
-    }
-
-
-
-
-
-
 ## Running the Unity tests
 
 There are Unity Tests on the project in order to ensure that it runs cohesively, and they can be found at their respective folders.
 The tests cover subjects such as string sanitazing and sorting methods. The tests in place are there to make sure the code isn't broken while the API was being developed - it is essential for present and future maintenance.
 
 ```
-Give an example
+npm run test
 ```
 
 ### Style guide
 
 The standard eslint rules were applied, and the full list can be found at https://eslint.org/docs/rules/
-If you want to configure your own eslint rules, the file can be found at ./.eslintrc.json
+If you want to configure your own eslint rules, the file can be found at [.eslintrc.json](./.eslintrc.json)
 
 ```
 {
@@ -220,7 +200,7 @@ If you want to configure your own eslint rules, the file can be found at ./.esli
 
 ## Credentials
 
-Each recipe has a gif url as an object attribute, so, for the API to work, you need an apikey. There's an .env file that has my GIPHY apikey. You must change it when deploying the API, and to use another key just replace the GIF_API value with your own. For more information, go to https://developers.giphy.com/docs/sdk.
+Each recipe has a gif url as an object attribute, so, for the API to work, you need an apikey. There's an [environment](./.env) file that has my GIPHY apikey. You must change it when deploying the API, and to use another key just replace the GIF_API value with your own. For more information, go to https://developers.giphy.com/docs/sdk.
 
 ## CI/CD Github Actions
 
