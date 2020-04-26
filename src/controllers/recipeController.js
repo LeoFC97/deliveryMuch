@@ -33,7 +33,7 @@ module.exports = {
     }
 
     const objectToReturn = {
-      keyowrds: keywords,
+      keywords: keywords,
       recipes: recipes
     }
     return res.status(200).send(objectToReturn)
