@@ -7,5 +7,14 @@ module.exports = {
       }
     }
     return errorObject
+  },
+  wrongParams () {
+    const errorObject = {
+      status: 400,
+      errorMensage: {
+        err: 'Wrong params, check the api manual'
+      }
+    }
+    return errorObject
   }
 }

@@ -13,8 +13,12 @@ module.exports = {
     }
 
     const keywords = queryParamsController.splitQueryIntoArray(i)
-    const returnOfRecipePuppy = await httpController.getRecipe(keywords)
+    if (!queryParamsController.checkNumberOfParams(keywords)) {
+      const errorObject = errorController.wrongParams()
+      return res.status(errorObject.status).send(errorObject.errorMensage)
+    }
 
+    const returnOfRecipePuppy = await httpController.getRecipe(keywords)
     const recipes = await returnOfRecipePuppy.results.map(recipe => {
       const titleWithoutMarks = stringUtils.removeMarks(recipe.title)
       const arrayOfIngredients = recipe.ingredients.split(',')
