@@ -1,4 +1,4 @@
-const sortUtil = require('./sortUtils')
+const sortUtil = require('./sortUtil')
 
 describe('Sorting util', () => {
   test('Should return ordered array', () => {

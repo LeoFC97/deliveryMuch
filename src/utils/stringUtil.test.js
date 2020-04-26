@@ -1,4 +1,4 @@
-const stringUtil = require('./stringUtils')
+const stringUtil = require('./stringUtil')
 
 describe('String util ', () => {
   test('Should return an string without marks', () => {
