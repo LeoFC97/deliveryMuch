@@ -35,11 +35,11 @@ docker-compose up
 
 ### API Resources
 
-  - [GET /recipesi=<ingredient_1>,<ingredient_2>](#get-recipes)
+  - [GET /recipes?i=<ingredient_1>,<ingredient_2>](#get-recipes)
 
 ### GET /recipes
 
-Example: http://localhost:333/recipesi=tomato,onions
+Example: http://127.0.0.1:3333/recipes?i=tomato,onions
 
 Response body:
 
