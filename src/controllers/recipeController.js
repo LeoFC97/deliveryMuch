@@ -1,7 +1,8 @@
 const httpController = require('./httpController')
-const sortUtils = require('../utils/sortUtils')
-const stringUtils = require('../utils/stringUtils')
-const errorController = require('../controllers/errorController')
+const sortUtils = require('../utils/sortUtil')
+const stringUtils = require('../utils/stringUtil')
+const errorController = require('./errorController')
+const queryParamsController = require('./queryParamsController')
 
 module.exports = {
   async returnRecipe (req, res) {
@@ -11,7 +12,7 @@ module.exports = {
       return res.status(errorObject.status).send(errorObject.errorMensage)
     }
 
-    const keywords = (i.split('i=')[0]).split(',')
+    const keywords = queryParamsController.splitQueryIntoArray(i)
     const returnOfRecipePuppy = await httpController.getRecipe(keywords)
 
     const recipes = await returnOfRecipePuppy.results.map(recipe => {
@@ -25,12 +26,7 @@ module.exports = {
     for (let i = 0; i < recipes.length; i++) {
       const returnOfGifRequest = await httpController.getGif(recipes[i].title)
       recipes[i].gif = returnOfGifRequest.data[0].images.original.url
-      console.log(i)
     }
-
-    // const returnOfGifRequest = await httpController.getGif(recipe.title)
-    // return returnOfGifRequest.data[0].images.original.url
-    console.log(recipes)
 
     const objectToReturn = {
       keyowrds: keywords,
